@@ -60,6 +60,21 @@
         <label for="requests">Any special requests?</label>
         <br>
         <textarea id="requests" rows="10" cols="30" name="requests" placeholder="Type your request here"></textarea>
-     </p>                           
+     </p>
+
+    <h2>Validations</h2>
+    <form action="/test">
+        <label for="first">Enter first name</label>
+        <input id="first" type="text" name="first" required>
+    <p>
+        <label for="username">Username</label>
+        <input id="username" type="text" name="username" minlength="5" maxlength="20" required>
+    </p>
+        <button>Submit</button>
+    <p>
+        <input type="email" required>
+    </p>
+    </form>
+                           
 </body>
 </html>
