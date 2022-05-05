@@ -103,4 +103,5 @@ button:hover {
     background-color: olive;
 }
 
-/* Specificity - ID > CLASS > ELEMENT */
+/* Specificity - !IMPORTANT > INLINE STYLES > ID > CLASS > ELEMENT 
+NOT GOOD PRACTICE TO USE !IMPORTANT OR INLINE STYLES */
