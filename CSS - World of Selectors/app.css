@@ -1,0 +1,106 @@
+/* * {
+   background-color: cyan;
+} */
+
+body {
+    background-color: #f1faee;
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+/* ID SELECTORS - USING # */
+
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+h1,h2 {
+    color: #1d3557
+}
+
+/* CLASS SELECTORS - USING . */
+
+span {
+    color: #457b9d
+}
+
+.tag {
+    background: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+/* DESCENDANT SELECTORS */
+
+.post a {
+    color: #457b9d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a {
+    color: #e63946;
+}
+
+/* ADJACENT & DIRECT-DESCENDANT SELECTORS */
+
+h2 + button {
+    font-size: 20px;
+}
+
+footer > a {
+    color: #457b9d;
+}
+
+/* ATTRIBUTE SELECTORS */
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+a[href*="google"]{
+    color: magenta;
+}
+
+/*PSEUDO CLASSES */
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(2n){
+    background-color: #dfe8dc;
+}
+
+/*PSEUDO ELEMENTS */
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #fcbf49;
+}
+
+button:hover {
+    background-color: olive;
+}
+
+/* Specificity - ID > CLASS > ELEMENT */
