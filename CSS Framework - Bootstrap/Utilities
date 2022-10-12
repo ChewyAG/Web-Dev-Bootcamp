@@ -31,7 +31,7 @@
         <div class="my-5">
             <button class="btn btn-primary p-0 pt-5">Padding Top</button>
             <button class="btn btn-primary p-0 pl-5">Padding Left</button>
-            <button class="btn btn-primary p-0 pb-5 ">Padding Bottom</button>
+            <button class="btn btn-primary p-0 pb-5">Padding Bottom</button>
             <button class="btn btn-primary p-0 pr-5">Padding Right</button>
             <button class="btn btn-primary p-0 px-5">Padding X</button>
             <button class="btn btn-primary p-0 py-5">Padding Y</button>
